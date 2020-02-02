@@ -266,9 +266,12 @@ public class MailbtnActionWindow implements EventListener<Event>
 		confirmPanel.addActionListener(this);
 		
 		}
+		StringBuilder sql = new StringBuilder("SELECT componentname FROM AD_ToolBarButton ");
+		sql.append("WHERE AD_ToolBarButton_UU = ?");
+		Object[] params = new Object[] {"b21b5b67-ec6e-416d-8af8-dbf62f0c5015"};
+		String mailBtn = DB.getSQLValueString(null, sql.toString(), params);
 		
-		
-		LayoutUtils.openPopupWindow(panel.getToolbar().getButton("mail"), mailTemplateSelect, "after_start");
+		LayoutUtils.openPopupWindow(panel.getToolbar().getButton(mailBtn), mailTemplateSelect, "after_start");
 	
 	}
 	
