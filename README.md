@@ -1,8 +1,17 @@
-# MailButton
-Mail button plugin for Idempiere. Adds a mail button to the toolbar which, depending on what window is active when it's clicked on, will populate a email dialog with a user's email address and allow you to select an email template. Also adds a user mail record for the recipient.
+# KBS Plugins : Blindmotion Mailbutton
 
-How do I get set up?
-Install .jar into your OSGi web console
+The fork from https://github.com/PhilBarnett/MailButton, and converted to be able to use **KBS ObjectData Tool** for plugin installation
 
-Who do I talk to?
-phil@blindmotion.com.au
+Refer to https://wiki.idempiere.org/en/Plugin:_PeriodOpenClose
+
+## How to install
+
+1. Install **KBS ObjectData Tool**
+(refer to http://wiki.idempiere.org/en/Plugin:_ObjectDataTool)
+
+2. Install the plugin via Apache Felix Web Console
+
+## How to use
+
+System Admin -> General Rules -> Security -> User
+

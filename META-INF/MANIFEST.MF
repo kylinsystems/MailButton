@@ -1,11 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Mailbtn
-Bundle-SymbolicName: au.blindmot.mailbtn;singleton:=true
-Bundle-Version: 1.0.1.qualifier
+Bundle-Name: KBS Plugins : blindmotion Mailbutton
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.blindmotion.mailbutton;singleton:=true
+Bundle-Version: 7.1.0.qualifier
+Bundle-Vendor: KBS
+Bundle-Activator: com.kylinsystems.kbs.odt.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Service-Component: au.blindmot.mailbtn.action.mail.xml
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
+Service-Component: OSGI-INF/*.xml
 Import-Package: com.ibm.icu.util,
  com.itextpdf.text,
  javax.activation,
@@ -16,15 +17,15 @@ Import-Package: com.ibm.icu.util,
  org.osgi.framework;version="1.3.0",
  org.osgi.service.component.annotations;version="1.2.0";resolution:=optional,
  org.osgi.util.tracker;version="1.5.2"
-Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
- org.adempiere.plugin.utils;bundle-version="7.1.0",
- zk;bundle-version="8.6.0",
- zkbind;bundle-version="8.6.0",
- zkplus;bundle-version="8.6.0",
- zul;bundle-version="8.6.0",
- org.adempiere.ui.zk;bundle-version="7.1.0"
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
+ zk;bundle-version="0.0.0",
+ zkbind;bundle-version="0.0.0",
+ zkplus;bundle-version="0.0.0",
+ zul;bundle-version="0.0.0",
+ org.adempiere.ui.zk;bundle-version="0.0.0",
+ com.kylinsystems.kbs.odt;bundle-version="0.0.0"
 Export-Package: action.images,
  au.blindmot.mailbtn
 Bundle-ActivationPolicy: lazy
-Automatic-Module-Name: au.blindmot.mailbtn
-Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.blindmotion.mailbutton
