@@ -2,7 +2,7 @@
 
 The fork from https://github.com/PhilBarnett/MailButton, and converted to be able to use **KBS ObjectData Tool** for plugin installation
 
-Refer to https://wiki.idempiere.org/en/Plugin:_PeriodOpenClose
+Refer to https://wiki.idempiere.org/en/Plugin:_Mail_button
 
 ## How to install
 
