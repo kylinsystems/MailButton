@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: KBS Plugin : Blindmotion Mailbutton
 Bundle-SymbolicName: com.kylinsystems.kbs.plugins.blindmotion.mailbutton;singleton:=true
-Bundle-Version: 7.1.0.qualifier
+Bundle-Version: 8.2.0.qualifier
 Bundle-Vendor: KBS
 Bundle-Activator: com.kylinsystems.kbs.odt.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-11
